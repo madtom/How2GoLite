@@ -16,6 +16,9 @@
 		D74E3A47160B8D8600072045 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74E3A45160B8D8600072045 /* MainStoryboard.storyboard */; };
 		D74E3A4A160B8D8600072045 /* CNX_MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74E3A49160B8D8600072045 /* CNX_MainViewController.m */; };
 		D74E3A4D160B8D8600072045 /* CNX_FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74E3A4C160B8D8600072045 /* CNX_FlipsideViewController.m */; };
+		D77F5FA6160B982D0030FE1F /* CNX_ChargesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D77F5FA5160B982D0030FE1F /* CNX_ChargesViewController.m */; };
+		D77F5FB3160BB2240030FE1F /* Bus_100.png in Resources */ = {isa = PBXBuildFile; fileRef = D77F5FB2160BB2240030FE1F /* Bus_100.png */; };
+		D77F5FB5160BB3640030FE1F /* Car_100.png in Resources */ = {isa = PBXBuildFile; fileRef = D77F5FB4160BB3640030FE1F /* Car_100.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,10 @@
 		D74E3A49160B8D8600072045 /* CNX_MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNX_MainViewController.m; sourceTree = "<group>"; };
 		D74E3A4B160B8D8600072045 /* CNX_FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNX_FlipsideViewController.h; sourceTree = "<group>"; };
 		D74E3A4C160B8D8600072045 /* CNX_FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNX_FlipsideViewController.m; sourceTree = "<group>"; };
+		D77F5FA4160B982D0030FE1F /* CNX_ChargesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNX_ChargesViewController.h; sourceTree = "<group>"; };
+		D77F5FA5160B982D0030FE1F /* CNX_ChargesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNX_ChargesViewController.m; sourceTree = "<group>"; };
+		D77F5FB2160BB2240030FE1F /* Bus_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bus_100.png; sourceTree = "<group>"; };
+		D77F5FB4160BB3640030FE1F /* Car_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Car_100.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,11 +89,8 @@
 			children = (
 				D74E3A42160B8D8600072045 /* CNX_AppDelegate.h */,
 				D74E3A43160B8D8600072045 /* CNX_AppDelegate.m */,
-				D74E3A45160B8D8600072045 /* MainStoryboard.storyboard */,
-				D74E3A48160B8D8600072045 /* CNX_MainViewController.h */,
-				D74E3A49160B8D8600072045 /* CNX_MainViewController.m */,
-				D74E3A4B160B8D8600072045 /* CNX_FlipsideViewController.h */,
-				D74E3A4C160B8D8600072045 /* CNX_FlipsideViewController.m */,
+				D77F5FA9160B986A0030FE1F /* Controller */,
+				D77F5FA8160B98590030FE1F /* Ressources */,
 				D74E3A3A160B8D8600072045 /* Supporting Files */,
 			);
 			path = How2GoLite;
@@ -101,6 +105,29 @@
 				D74E3A41160B8D8600072045 /* How2GoLite-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D77F5FA8160B98590030FE1F /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				D77F5FB4160BB3640030FE1F /* Car_100.png */,
+				D77F5FB2160BB2240030FE1F /* Bus_100.png */,
+				D74E3A45160B8D8600072045 /* MainStoryboard.storyboard */,
+			);
+			name = Ressources;
+			sourceTree = "<group>";
+		};
+		D77F5FA9160B986A0030FE1F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D74E3A48160B8D8600072045 /* CNX_MainViewController.h */,
+				D74E3A49160B8D8600072045 /* CNX_MainViewController.m */,
+				D74E3A4B160B8D8600072045 /* CNX_FlipsideViewController.h */,
+				D74E3A4C160B8D8600072045 /* CNX_FlipsideViewController.m */,
+				D77F5FA4160B982D0030FE1F /* CNX_ChargesViewController.h */,
+				D77F5FA5160B982D0030FE1F /* CNX_ChargesViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +184,8 @@
 			files = (
 				D74E3A3E160B8D8600072045 /* InfoPlist.strings in Resources */,
 				D74E3A47160B8D8600072045 /* MainStoryboard.storyboard in Resources */,
+				D77F5FB3160BB2240030FE1F /* Bus_100.png in Resources */,
+				D77F5FB5160BB3640030FE1F /* Car_100.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +200,7 @@
 				D74E3A44160B8D8600072045 /* CNX_AppDelegate.m in Sources */,
 				D74E3A4A160B8D8600072045 /* CNX_MainViewController.m in Sources */,
 				D74E3A4D160B8D8600072045 /* CNX_FlipsideViewController.m in Sources */,
+				D77F5FA6160B982D0030FE1F /* CNX_ChargesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +316,7 @@
 				D74E3A52160B8D8600072045 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

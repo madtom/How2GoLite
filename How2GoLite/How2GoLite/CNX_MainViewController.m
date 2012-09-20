@@ -40,9 +40,16 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    if ([[segue identifier] isEqualToString:@"showAlternate"]) {
+    if ([[segue identifier] isEqualToString:@"showAlternate"] ||
+        [[segue identifier] isEqualToString:@"showCharges"]) {
         [[segue destinationViewController] setDelegate:self];
     }
 }
 
+#pragma mark - Charges View
+-(void)chargesViewControllerDidFinish:(CNX_ChargesViewController *)controller {
+    [self dismissModalViewControllerAnimated:YES];
+}
+
 @end
+

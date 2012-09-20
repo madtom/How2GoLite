@@ -7,7 +7,8 @@
 //
 
 #import "CNX_FlipsideViewController.h"
+#import "CNX_ChargesViewController.h"
 
-@interface CNX_MainViewController : UIViewController <CNX_FlipsideViewControllerDelegate>
+@interface CNX_MainViewController : UIViewController <CNX_FlipsideViewControllerDelegate, CNX_ChargesViewControllerDelegate>
 
 @end
