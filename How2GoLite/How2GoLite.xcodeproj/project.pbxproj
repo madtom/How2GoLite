@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D74E3A34160B8D8600072045 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D74E3A33160B8D8600072045 /* UIKit.framework */; };
+		D74E3A36160B8D8600072045 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D74E3A35160B8D8600072045 /* Foundation.framework */; };
+		D74E3A38160B8D8600072045 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D74E3A37160B8D8600072045 /* CoreGraphics.framework */; };
+		D74E3A3E160B8D8600072045 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D74E3A3C160B8D8600072045 /* InfoPlist.strings */; };
+		D74E3A40160B8D8600072045 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D74E3A3F160B8D8600072045 /* main.m */; };
+		D74E3A44160B8D8600072045 /* CNX_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D74E3A43160B8D8600072045 /* CNX_AppDelegate.m */; };
+		D74E3A47160B8D8600072045 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74E3A45160B8D8600072045 /* MainStoryboard.storyboard */; };
+		D74E3A4A160B8D8600072045 /* CNX_MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74E3A49160B8D8600072045 /* CNX_MainViewController.m */; };
+		D74E3A4D160B8D8600072045 /* CNX_FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74E3A4C160B8D8600072045 /* CNX_FlipsideViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D74E3A2F160B8D8600072045 /* How2GoLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = How2GoLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74E3A33160B8D8600072045 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D74E3A35160B8D8600072045 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D74E3A37160B8D8600072045 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D74E3A3B160B8D8600072045 /* How2GoLite-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "How2GoLite-Info.plist"; sourceTree = "<group>"; };
+		D74E3A3D160B8D8600072045 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D74E3A3F160B8D8600072045 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D74E3A41160B8D8600072045 /* How2GoLite-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "How2GoLite-Prefix.pch"; sourceTree = "<group>"; };
+		D74E3A42160B8D8600072045 /* CNX_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNX_AppDelegate.h; sourceTree = "<group>"; };
+		D74E3A43160B8D8600072045 /* CNX_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNX_AppDelegate.m; sourceTree = "<group>"; };
+		D74E3A46160B8D8600072045 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D74E3A48160B8D8600072045 /* CNX_MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNX_MainViewController.h; sourceTree = "<group>"; };
+		D74E3A49160B8D8600072045 /* CNX_MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNX_MainViewController.m; sourceTree = "<group>"; };
+		D74E3A4B160B8D8600072045 /* CNX_FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNX_FlipsideViewController.h; sourceTree = "<group>"; };
+		D74E3A4C160B8D8600072045 /* CNX_FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNX_FlipsideViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D74E3A2C160B8D8600072045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74E3A34160B8D8600072045 /* UIKit.framework in Frameworks */,
+				D74E3A36160B8D8600072045 /* Foundation.framework in Frameworks */,
+				D74E3A38160B8D8600072045 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D74E3A24160B8D8600072045 = {
+			isa = PBXGroup;
+			children = (
+				D74E3A39160B8D8600072045 /* How2GoLite */,
+				D74E3A32160B8D8600072045 /* Frameworks */,
+				D74E3A30160B8D8600072045 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D74E3A30160B8D8600072045 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D74E3A2F160B8D8600072045 /* How2GoLite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D74E3A32160B8D8600072045 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D74E3A33160B8D8600072045 /* UIKit.framework */,
+				D74E3A35160B8D8600072045 /* Foundation.framework */,
+				D74E3A37160B8D8600072045 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D74E3A39160B8D8600072045 /* How2GoLite */ = {
+			isa = PBXGroup;
+			children = (
+				D74E3A42160B8D8600072045 /* CNX_AppDelegate.h */,
+				D74E3A43160B8D8600072045 /* CNX_AppDelegate.m */,
+				D74E3A45160B8D8600072045 /* MainStoryboard.storyboard */,
+				D74E3A48160B8D8600072045 /* CNX_MainViewController.h */,
+				D74E3A49160B8D8600072045 /* CNX_MainViewController.m */,
+				D74E3A4B160B8D8600072045 /* CNX_FlipsideViewController.h */,
+				D74E3A4C160B8D8600072045 /* CNX_FlipsideViewController.m */,
+				D74E3A3A160B8D8600072045 /* Supporting Files */,
+			);
+			path = How2GoLite;
+			sourceTree = "<group>";
+		};
+		D74E3A3A160B8D8600072045 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D74E3A3B160B8D8600072045 /* How2GoLite-Info.plist */,
+				D74E3A3C160B8D8600072045 /* InfoPlist.strings */,
+				D74E3A3F160B8D8600072045 /* main.m */,
+				D74E3A41160B8D8600072045 /* How2GoLite-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D74E3A2E160B8D8600072045 /* How2GoLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D74E3A50160B8D8600072045 /* Build configuration list for PBXNativeTarget "How2GoLite" */;
+			buildPhases = (
+				D74E3A2B160B8D8600072045 /* Sources */,
+				D74E3A2C160B8D8600072045 /* Frameworks */,
+				D74E3A2D160B8D8600072045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = How2GoLite;
+			productName = How2GoLite;
+			productReference = D74E3A2F160B8D8600072045 /* How2GoLite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D74E3A26160B8D8600072045 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CNX_;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Thomas Dubiel";
+			};
+			buildConfigurationList = D74E3A29160B8D8600072045 /* Build configuration list for PBXProject "How2GoLite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D74E3A24160B8D8600072045;
+			productRefGroup = D74E3A30160B8D8600072045 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D74E3A2E160B8D8600072045 /* How2GoLite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D74E3A2D160B8D8600072045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74E3A3E160B8D8600072045 /* InfoPlist.strings in Resources */,
+				D74E3A47160B8D8600072045 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D74E3A2B160B8D8600072045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74E3A40160B8D8600072045 /* main.m in Sources */,
+				D74E3A44160B8D8600072045 /* CNX_AppDelegate.m in Sources */,
+				D74E3A4A160B8D8600072045 /* CNX_MainViewController.m in Sources */,
+				D74E3A4D160B8D8600072045 /* CNX_FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D74E3A3C160B8D8600072045 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D74E3A3D160B8D8600072045 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D74E3A45160B8D8600072045 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D74E3A46160B8D8600072045 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D74E3A4E160B8D8600072045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D74E3A4F160B8D8600072045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D74E3A51160B8D8600072045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "How2GoLite/How2GoLite-Prefix.pch";
+				INFOPLIST_FILE = "How2GoLite/How2GoLite-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D74E3A52160B8D8600072045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "How2GoLite/How2GoLite-Prefix.pch";
+				INFOPLIST_FILE = "How2GoLite/How2GoLite-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D74E3A29160B8D8600072045 /* Build configuration list for PBXProject "How2GoLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74E3A4E160B8D8600072045 /* Debug */,
+				D74E3A4F160B8D8600072045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D74E3A50160B8D8600072045 /* Build configuration list for PBXNativeTarget "How2GoLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74E3A51160B8D8600072045 /* Debug */,
+				D74E3A52160B8D8600072045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D74E3A26160B8D8600072045 /* Project object */;
+}
